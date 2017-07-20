@@ -1,7 +1,7 @@
 var imie = "Dominik",
     nazwisko = "Grabiński";
-var wiek;    
+var wiek;
 wiek = 24;
-imie = "Andrzej";
+imie = "Ewa";
 
 var kopiaImie = imie;

@@ -9,7 +9,7 @@ if(firstName === "Dominik" || lastName === "Grabiński") {
   console.log("Jacek lub Nowak");
 }
 
-var name = "Andrzej";
+var name = "Ewa";
 
 if(!name){
   console.log("Imię nie zostało podane!");
