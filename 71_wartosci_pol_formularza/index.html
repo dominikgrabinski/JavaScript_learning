@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Wartości pół formualarza</title>
+
+        <style>
+          form div {
+            margin-bottom: 10px;
+          }
+        </style>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Wartości pół formualarza</h1>
+
+        <form action="#" id="myForm">
+          <div>
+            <input type="text" name="firstName" value="Jan" />
+          </div>
+
+          <div>
+            <input type="text" name="lastName" />
+          </div>
+
+          <div>
+            <select name="subject">
+              <option value="pytanie">Pytanie</option>
+              <option value="prosba">Prośba</option>
+              <option value="zgloszenie">Zgłoszenie</option>
+            </select>
+          </div>
+
+          <div>
+            <textarea name="message"></textarea>
+          </div>
+
+          <div>
+            <label>Zapamiętaj mnie</label>
+            <input type="checkbox" name="remember" value="1" />
+          </div>
+
+          <div>
+            <input type="submit" value="Wyślij" />
+          </div>
+        </form>
+
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
